@@ -10,7 +10,6 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --check **/*.ts **/*.md",
@@ -37,6 +36,7 @@
   },
   "devDependencies": {
     "@qgisk/prettier-config": "^0.0.1",
+    "dotenv": "^10.0.0",
     "eslint": "^7.0.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.1.0",

@@ -1,0 +1,28 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Express discord authenticatione example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "express discord authentication"
+  ],
+  "author": "Demian <QGIsK> (https://github.com/qgisk)",
+  "license": "ISC",
+  "dependencies": {
+    "@qgisk/prettier-config": "^0.0.2",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "passport": "^0.5.2",
+    "prettier": "^2.5.1",
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}
