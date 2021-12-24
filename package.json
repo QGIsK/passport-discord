@@ -1,0 +1,54 @@
+{
+  "name": "passport-discord",
+  "version": "0.0.1",
+  "description": "Modernized version of old passport-discord's",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.ts **/*.md",
+    "prettier:fix": "prettier --write **/*.ts **/*.md",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qgisk/passport-discord.git"
+  },
+  "keywords": [],
+  "author": "Demian <QGIsK> (https://github.com/qgisk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qgisk/passport-discord/issues"
+  },
+  "homepage": "https://github.com/qgisk/passport-discord#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.6.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@qgisk/prettier-config": "^0.0.1",
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "husky": "^7.0.0",
+    "passport": "^0.5.2",
+    "prettier": "^2.0.5",
+    "standard-version": "^9.3.2"
+  }
+}

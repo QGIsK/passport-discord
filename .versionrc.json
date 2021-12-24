@@ -1,0 +1,14 @@
+{
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "style", "hidden": true },
+    { "type": "refactor", "hidden": true },
+    { "type": "perf", "hidden": true },
+    { "type": "test", "hidden": true },
+    { "type": "chore", "section": "Other" }
+  ],
+  "commitUrlFormat": "https://github.com/QGIsK/steamResolver/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/QGIsK/steamResolver/compare/{{previousTag}}...{{currentTag}}"
+}
