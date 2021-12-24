@@ -6,7 +6,7 @@ const passport = require("passport");
 const Strategy = require("../../lib").Strategy;
 const app = express();
 
-const { CLIENT_ID, CLIENT_SECRET } = process.env;
+const { CLIENT_ID, CLIENT_SECRET, CALLBACK, PORT } = process.env;
 
 passport.serializeUser(function (user, done) {
   done(null, user);
@@ -28,7 +28,7 @@ passport.use(
     {
       clientID: CLIENT_ID,
       clientSecret: CLIENT_SECRET,
-      callbackURL: "http://localhost:5000/callback",
+      callbackURL: CALLBACK,
       scope: scopes,
       prompt: prompt,
     },
@@ -72,9 +72,9 @@ app.get("/info", checkAuth, (req, res) => {
   res.json(req.user);
 });
 
-app.listen(5000, (err) => {
+app.listen(PORT, (err) => {
   /* eslint-disable no-console */
   if (err) return console.log(err);
 
-  console.log("Listening at http://localhost:5000/");
+  console.log(`Listening at port ${PORT}`);
 });
