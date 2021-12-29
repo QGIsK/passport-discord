@@ -89,6 +89,7 @@ async function startServer() {
 
     // Check if req is authenticated, if not set to null, we base our middleware in index.page.server.js files.
     const user = req?.user ?? null;
+
     const pageContextInit = {
       user,
       // We make logged-in user information available to pages as `pageContext.user`
@@ -98,8 +99,6 @@ async function startServer() {
 
     if (pageContext.redirectTo)
       return res.redirect(307, pageContext.redirectTo);
-
-    if(url)
 
     const { httpResponse } = pageContext;
     if (!httpResponse) return next();

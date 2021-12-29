@@ -1,5 +1,10 @@
 export { onBeforeRender };
 
-const onBeforeRender = (pageContext) => {
-  return { redirectTo: "/" };
-};
+// eslint-disable-next-line require-jsdoc
+async function onBeforeRender() {
+  return {
+    pageContext: {
+      redirectTo: "/",
+    },
+  };
+}
