@@ -1,4 +1,6 @@
 # passport-discord
+<span class="badge-npmversion"><a href="https://www.npmjs.com/package/@qgisk/passport-discord" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@qgisk/passport-discord.svg" alt="NPM version"/></a></span>
+<span class="badge-npmdownloads"><a href="https://www.npmjs.org/package/@qgisk/passport-discord" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@qgisk/passport-discord.svg" alt="NPM downloads" /></a></span>
 
 The original author(s) no longer seemed to maintain the package, This is a rewrite of both the originals in a more 'modern' fashion.
 
