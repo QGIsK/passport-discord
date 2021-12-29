@@ -1,5 +1,5 @@
 {
-  "name": "passport-discord",
+  "name": "@qgisk/passport-discord",
   "version": "0.0.1",
   "description": "Modernized version of old passport-discord's",
   "main": "lib/index.js",
