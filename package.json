@@ -47,5 +47,8 @@
     "passport": "^0.5.2",
     "prettier": "^2.0.5",
     "standard-version": "^9.3.2"
+  },
+  "peerDependencies": {
+    "passport": "^0.5.2"
   }
 }
