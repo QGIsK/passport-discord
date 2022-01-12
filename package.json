@@ -35,7 +35,6 @@
     "passport-oauth2": "^1.6.1"
   },
   "devDependencies": {
-    "@qgisk/prettier-config": "^0.0.1",
     "dotenv": "^10.0.0",
     "eslint": "^7.0.0",
     "eslint-config-google": "^0.14.0",
@@ -46,7 +45,6 @@
     "express-session": "^1.17.2",
     "husky": "^7.0.4",
     "passport": "^0.5.2",
-    "prettier": "^2.0.5",
     "standard-version": "^9.3.2"
   },
   "peerDependencies": {

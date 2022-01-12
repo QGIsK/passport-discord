@@ -19,9 +19,5 @@
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "passport": "^0.5.2"
-  },
-  "devDependencies": {
-    "@qgisk/prettier-config": "^0.0.3",
-    "prettier": "^2.5.1"
   }
 }
