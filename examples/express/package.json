@@ -14,10 +14,14 @@
   "author": "Demian <QGIsK> (https://github.com/qgisk)",
   "license": "ISC",
   "dependencies": {
-    "@qgisk/prettier-config": "^0.0.2",
+    "@qgisk/passport-discord": "^0.0.1",
+    "dotenv": "^11.0.0",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
-    "passport": "^0.5.2",
+    "passport": "^0.5.2"
+  },
+  "devDependencies": {
+    "@qgisk/prettier-config": "^0.0.3",
     "prettier": "^2.5.1"
   }
 }

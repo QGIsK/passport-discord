@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const session = require("express-session");
 const passport = require("passport");
-const Strategy = require("../../lib").Strategy;
+const Strategy = require("@qgisk/passport-discord").Strategy;
 const app = express();
 
 const { CLIENT_ID, CLIENT_SECRET, CALLBACK, PORT } = process.env;
