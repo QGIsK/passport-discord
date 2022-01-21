@@ -32,7 +32,7 @@ passport.use(
       scope: scopes,
       prompt: prompt,
     },
-    function (_accessToken, _refreshToken, profile, done) {
+    (_accessToken, _refreshToken, profile, done) => {
       process.nextTick(function () {
         return done(null, profile);
       });
