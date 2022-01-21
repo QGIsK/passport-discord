@@ -14,7 +14,7 @@
   "author": "Demian <QGIsK> (https://github.com/qgisk)",
   "license": "ISC",
   "dependencies": {
-    "@qgisk/passport-discord": "^0.0.1",
+    "@qgisk/passport-discord": "^0.0.2",
     "dotenv": "^11.0.0",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
