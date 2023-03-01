@@ -44,11 +44,11 @@
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "husky": "^7.0.4",
-    "passport": "^0.5.2",
+    "passport": "^0.6.0",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2"
   },
   "peerDependencies": {
-    "passport": "^0.5.2"
+    "passport": "^0.6.0"
   }
 }
